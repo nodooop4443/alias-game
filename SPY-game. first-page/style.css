@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #31C0CC;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: end;
+}
+
+#alias {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+#block {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+#second-block {
+    width: 80%;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#georgia-flag {
+    height: 60px;
+    align-items: end;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#flag {
+    background-color: white;
+    width: 40px;
+}
+
+#buttons {
+    height: 70px;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#continue {
+    width: 90%;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(181, 179, 179);
+    border: 2px solid rgb(181, 179, 179);
+}
+
+#continue:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+#continue:active {
+    opacity: 0.70;
+}
+
+#new-game {
+    width: 90%;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(5, 181, 163);
+    border: 2px solid rgb(5, 181, 163);
+}
+
+#new-game:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+#new-game:active {
+opacity: 0.70;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 181, 163);
+    width: 90%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#rulles {
+    width: 90%;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(5, 181, 163);
+    border: 2px solid rgb(5, 181, 163);
+}
+
+#rulles:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+#rulles:active {
+    opacity: 0.70;
+}
+
+
+#rate {
+    width: 90%;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(5, 181, 163);
+    border: 2px solid rgb(5, 181, 163);
+}
+
+#rate:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+#rate:active {
+    opacity: 0.70;
+}
+
+

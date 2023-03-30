@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #31C0CC ;
+    overflow-x: hidden;
+}
+
+header {
+    height: 70px;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+#new-game {
+    color: white;
+}
+
+#teams {
+    height: 100px;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+#teams-ra {
+    color: white;
+}
+
+#thieves {
+height: 80px;
+align-items: end;
+display: flex;
+justify-content: center;
+}
+
+#black-life {
+    width: 80%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.236);
+    border: 2px solid rgba(255, 255, 255, 0.236);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#black-life:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+#black-life:active {
+    opacity: 0.70;
+}
+
+#boys {
+height: 60px;
+align-items: end;
+display: flex;
+justify-content: center;
+}
+
+#good-boys {
+    width: 80%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.236);
+    border: 2px solid rgba(255, 255, 255, 0.236);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#good-boys:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+#good-boys:active {
+    opacity: 0.70;
+}
+
+footer {
+    height: 300px;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
+#start-game {
+width: 100%;
+height: 50px;
+background-color: rgb(255, 183, 0);
+border: 2px solid rgb(255, 183, 0);
+border-radius: 10px;
+font-size: 20px;
+color: white;
+}
+
+#start-game:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+
+#start-game:active {
+    opacity: 0.70;
+}
+
+#start-game-a {
+width: 90%;
+height: 50px;
+background-color: rgb(255, 183, 0);
+border: 2px solid rgb(255, 183, 0);
+border-radius: 10px;
+font-size: 20px;
+color: white;
+}
+
